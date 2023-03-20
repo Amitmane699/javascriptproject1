@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #d6e215;
+}
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 1rem;
+
+}
+.card{
+    width: 250px;
+    background-color: red;
+    height: 320px;
+   
+    border-radius: 8px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-basis: 130px;
+
+}
+.profile{
+    border-radius: 50%;
+}
+.pbutton{
+padding: 10px;
+background-color: white;
+border-radius: 4px;
+text-decoration: none;
+}
+.pbutton:hover{
+    transform: 3s;
+    color: white;
+    background-color: green;
+}
+.card-container{
+    display: flex;
+    margin-top: 4rem;
+    justify-content: space-evenly;
+    
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+background-color: white;
+border-radius: 4px;
+}
